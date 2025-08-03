@@ -1,0 +1,20 @@
+# Ignore large CSV
+data/fraud_data.csv
+
+# Ignore some pickle files
+models\test_data.pkl
+models\LightGBM_Oversampling_minority.pkl
+models\LightGBM_ADASYN.pkl
+test_data\LightGBM_Oversampling_minority_Test.pkl
+test_data\LightGBM_ADASYN_Test.pkl
+
+# Optional: ignore hidden Jupyter checkpoint folders
+**/.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
