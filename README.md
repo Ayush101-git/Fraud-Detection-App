@@ -107,6 +107,13 @@ You can try the deployed model through the Streamlit interface to simulate real-
 
 ---
 
+## Note
+- The models/ and test_data/ folders has file for only best performing model, however to run motebooks/comparison.ipynb they should contain pickle files of all trained models and their corresponding test datasets.
+
+- To generate these files, simply run the Jupyter notebooks located in the notebooks/ folder — each notebook will save its model and test data automatically.
+
+- Once all model notebooks have been executed, you can run comparison.ipynb to compare their performance.
+
 ##  Author
 
 **Ayush Yadav**  
