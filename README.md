@@ -39,7 +39,7 @@ fraud-detection/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/Ayush101-git/Fraud-Detection-App
+git clone https://github.com/Ayush101-git/Fraud-Detection-App.git
 cd fraud-detection
 ```
 
